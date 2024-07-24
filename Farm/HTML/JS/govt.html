@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Organization's Page</title>
+    <link rel="stylesheet" type="text/css" href="./govtStyle.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome Government Organization</h1>
+    </header>
+    <main>
+        <section id="loanSchemeManagement">
+            <h2>Loan Scheme Management</h2>
+            <div id="schemeManagement">
+                <!-- Loan scheme management options will be displayed here -->
+                <h2>Upload New Loan Scheme</h2>
+                <input type="text" id="loanName" placeholder="Loan Name">
+                <input type="text" id="loanDescription" placeholder="Loan Description">
+                <input type="number" id="interestRate" placeholder="Interest Rate">
+                <input type="number" id="rebate" placeholder="Rebate">
+                <input type="number" id="expiryTimestamp" placeholder="Expiry Timestamp">
+                <!-- 1736576000 -->
+                <button onclick="uploadLoan()">Upload Loan</button>
+            </div>
+        </section>
+        <section id="loanTracking">
+            <h2>Loan Tracking</h2>
+            <div id="loanTrackingInfo">
+                <!-- Loan tracking information will be displayed here -->
+            </div>
+        </section>
+        <!-- <section id="loanUpload">
+        </section> -->
+    </main>
+    <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
+    <script type="./module" src="./script.js"></script>
+</body>
+</html>

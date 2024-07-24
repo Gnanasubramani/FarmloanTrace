@@ -1,0 +1,90 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Greeny shade */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main section styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Dashboard section styles */
+#dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Scheme section styles */
+#schemes {
+    background-color: #e0f2e9; /* Light greeny shade */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#schemes h2 {
+    color: #4CAF50; /* Greeny shade */
+    margin-bottom: 10px;
+}
+
+/* Loans section styles */
+#loans {
+    background-color: #e0f2e9; /* Light greeny shade */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#loans h2 {
+    color: #4CAF50; /* Greeny shade */
+    margin-bottom: 10px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Greeny shade */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+

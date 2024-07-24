@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Schemes for Farmers</title>
+    <link rel="stylesheet" type="text/css" href="./JS/style.css">
+</head>
+<body class="index">
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <h1>Govt to Farmer Schemes</h1>
+            </div>
+            <ul class="navbar-nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left">
+            <div id="loginFarmer" class="login-box">
+                <h2>Farmer Login</h2>
+                <form id="farmerLoginForm">
+                    <label for="farmerUsername">Username:</label>
+                    <input type="text" id="farmerUsername" name="farmerUsername" required>
+                    <label for="farmerPassword">Password:</label>
+                    <input type="password" id="farmerPassword" name="farmerPassword" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <div id="loginGovt" class="login-box">
+                <h2>Government Login</h2>
+                <form id="govtLoginForm">
+                    <label for="govtUsername">Username:</label>
+                    <input type="text" id="govtUsername" name="govtUsername" required>
+                    <label for="govtPassword">Password:</label>
+                    <input type="password" id="govtPassword" name="govtPassword" required>
+                    <button type="submit">Login</button>
+                    <div id="error-message" class="error-message"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="web3.min.js"></script> -->
+    <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
+    <script type="module" src="./JS/login.js"></script>
+    <!-- <script src="./script.js"></script> -->
+</body>
+</html>
